@@ -10,10 +10,40 @@
 <style>
     li:nth-child(2) {
         color: red;
+        background-color: black;
     }
 
     li:nth-child(4) {
         color: green;
+        background-color: red;
+    }
+
+    .flex-box {
+        display: flexbox;
+        flex-flow: row;
+        width: 900px;
+        height: 300px;
+        background: #000;
+    }
+
+    .items {
+        margin: 10px;
+        padding: 20px;
+        width: 30px;
+        height: 30px;
+        background: red;
+    }
+
+    .items:nth-child(2) {
+        color: aqua;
+        width: 40px;
+        background-color: blue;
+        align-self: flex-end;
+    }
+
+    .items:nth-child(2):hover {
+
+        background-color: blueviolet;
     }
 </style>
 
@@ -34,8 +64,12 @@
         </li>
 
     </ul>
-
-
+    <br>
+    <div class="flex-box"><br>
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+    </div>
 
 </body>
 
