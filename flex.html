@@ -19,8 +19,10 @@
             height: 400px;
             background-color: black;
             flex-direction: row;
+            /* justify-content x a-xis in row*/
             justify-content: flex-end;
             padding: 10px;
+            /* align-items y a-xis in row*/
             align-items: end;
         }
 
@@ -41,9 +43,11 @@
         /* Responsive layout - makes a one column layout instead of a two-column layout */
         @media (max-width: 800px) {
             .flex-container {
-                flex-direction: row;
-                align-content: center;
-                justify-content: center;
+                flex-direction: column;
+                /* justify-content y a-xis in column*/
+                justify-content: flex-end;
+                /* align-items x a-xis in column*/
+                align-items: center;
             }
 
             .items {
