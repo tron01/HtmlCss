@@ -1,4 +1,12 @@
-# HtmlCss
+<h1> Flex 
+
+<image src="flex png.png" />
+<dl>
+<dt><h4>   Align items</dt>
+       <dd><h5>  The align-items property will align the items on the cross axis </dd>
+       <dt> <h4>  Justify-content </dt>
+       <dd><h5>  The justify-content property is used to align the items on the main axis </dd>
+</dl>
  
 ###  The flex item properties are:
     
@@ -11,6 +19,7 @@
 
 
 [This is a comment that will be hidden.]:#
+
 <p style="color:#FFF"><b> Order  <b></p>
            
     Specifies the order of the flex items inside the same container
