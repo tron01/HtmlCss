@@ -7,216 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relative Units</title>
 </head>
-<style>
-    * {
-        margin: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-
-    .wrapper {
-        width: 100vw;
-        height: 100vh;
-        background-color: rgb(238, 238, 238);
-        color: #000;
-    }
-
-    nav {
-        width: 100vw;
-        background-color: aqua;
-        height: 10vh;
-    }
-
-    .navbar {
-        width: 100%;
-        height: 100%;
-    }
-
-    .navbar-brand {
-        font-size: 4em;
-        line-height: 80px;
-        padding: 0 30px;
-        margin: 0 30px;
-    }
-
-    .toogle_btn {
-        display: none;
-    }
-
-    .navbar-brand a {
-        color: red;
-    }
-
-    nav ul {
-        float: right;
-        margin-right: 20px;
-    }
-
-    ul li {
-        display: inline-block;
-        line-height: 30px;
-        padding: 20px;
-        margin: 0 5px;
-    }
-
-    ul li a {
-        padding: 10px 20px;
-        border-radius: 9px;
-        color: red;
-    }
-
-    ul li a:hover {
-        background-color: black;
-    }
-
-    .checkbtn {
-        color: aliceblue;
-        float: right;
-        line-height: 90px;
-        cursor: pointer;
-        margin-right: 40px;
-        font-size: 30px;
-        display: none;
-    }
-
-    #check {
-        display: none;
-    }
-
-    @media (max-width:856px) {
-        nav {
-            width: 100vw;
-            height: 12%;
-        }
-
-        .navbar-brand {
-            font-size: 4em;
-            padding: 0 40px;
-            margin: 0 30px;
-        }
-
-        .navbar-brand a {
-            color: red;
-        }
-
-        nav ul {
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            top: 80px;
-            left: -100%;
-            background-color: rgb(34, 98, 154);
-            text-align: center;
-        }
-
-        #check:checked~ul {
-            left: 0;
-        }
-
-        ul li {
-            display: block;
-        }
-
-        ul li a {
-            border-radius: 9px;
-            color: red;
-        }
-
-
-        .checkbtn {
-            display: block;
-        }
-    }
-
-
-
-
-    @media screen and (max-width:400px) {
-
-
-        nav {
-            width: 100vw;
-            height: 12%;
-        }
-
-        .navbar-brand {
-            font-size: 3em;
-            padding: 0 10px;
-            margin: 0 10px;
-        }
-
-        .navbar-brand a {
-            color: red;
-        }
-
-        nav ul {
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            top: 80px;
-            left: -100%;
-            background-color: rgb(34, 98, 154);
-            text-align: center;
-        }
-
-        #check:checked~ul {
-            left: 0;
-        }
-
-        ul li {
-            display: block;
-        }
-
-        ul li a {
-            border-radius: 9px;
-            color: red;
-        }
-
-        .checkbtn {
-            display: block;
-        }
-    }
-
-    @media (max-width:228px) {
-
-        nav {
-            width: 100vw;
-            height: 12%;
-        }
-
-        .navbar-brand {
-            font-size: 2em;
-            padding: 0 5px;
-            margin: 0 5px;
-        }
-
-        .checkbtn {
-            display: block;
-            margin-right: 10px;
-        }
-
-    }
-
-    @media (max-width:169px) {
-
-        nav {
-            width: 100vw;
-            height: 12%;
-        }
-
-        .navbar-brand {
-            font-size: 1.7em;
-
-        }
-
-        .checkbtn {
-            display: block;
-            margin-right: 5px;
-        }
-
-
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 <body>
     <div class="wrapper">
@@ -239,9 +30,21 @@
                 </ul>
             </div>
         </nav>
-        <div class="main-content">
-            <h1>Contact</h1>
+        <div id="main-content">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus numquam laboriosam recusandae debitis
+                ipsam quia voluptatem ipsum temporibus iste quasi nemo alias, dolor beatae aut consequatur expedita et
+                dolores cum?</p>
         </div>
+
+
+
+        <div id="footer">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsam! Iusto, enim nisi, esse
+            </p>
+        </div>
+
 
     </div>
 </body>
